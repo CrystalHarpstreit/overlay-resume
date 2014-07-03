@@ -1,0 +1,170 @@
+html, body {
+  min-height: 100%;
+}
+body {
+  background-color: #FFFFFA;
+  position: relative;
+}
+
+.blur {
+  -webkit-filter: blur(3px);
+}
+
+form {
+  background: white;
+  margin: 0 auto;
+  width: 400px;
+  height: 200px;
+  text-align: center;
+  margin-top: 3em;
+  padding-top: 3em;
+  z-index: 100;
+  position: relative;
+  border-radius: 5px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1000px;
+  background-color: rgba(0,0,0,0.5); 
+}
+
+.overlay.hidden {
+  display: none;
+}
+
+input, button {
+  transition: border 0.5s;
+  border: 2px solid #ccc;
+  margin: 1em;
+}
+
+input.error {
+  border: 2px red solid;
+  transition: border 0.5s;
+}
+
+#header {
+  width: 100%;
+}
+
+h1, p {
+  font-family: 'Snippet', sans-serif;
+  font-size: 3em;
+  text-align: center;
+  background-color: #F34106;
+  color: transparent;
+  text-shadow: 0px 2px 3px rgba(255,255,255,0.5);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  padding-bottom: 10px;
+  border-bottom: solid #8B0101;
+  padding-bottom: 10px;
+  border-bottom: solid #8B0101;
+  width: 500px;
+  margin: 0 auto;
+}
+
+p.number, p.email {
+  font-size: 1.5em;
+  border: none;
+  padding-top: 20px; 
+}
+
+.section-wrapper {
+  margin-left: 200px;
+  margin-top: 100px;
+  width: 1134px;
+  position: absolute;
+}
+
+.section-li, ul.skills-list {
+  list-style-type: none;
+  padding: 0 20px 20px 0;
+}
+
+.leftContent {
+  width: 513px;
+  float: left;  
+  border-right: solid #DA0402;
+} 
+
+.rightContent {
+  width: 450px;
+  float: right;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #F34106;
+}
+
+.position, .location {
+  color: #F34106;
+}
+
+h2, span.date, h3.company, .position, .location, ul.skills-list, ul.activities {
+  font-family: 'Snippet', sans-serif;
+}
+
+span.date {
+  color: #666;
+}
+
+.experience {
+  position: relative;
+  left: 40px;
+}
+
+ul.skills-list {
+  font-weight: 900;
+  font-size: 1.125;
+}
+
+ul.activities {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 900;
+  position: relative;
+  right: 35px;
+}
+
+a:hover {
+  color: #F34106;
+}
+
+.myImage {
+  position: relative; 
+}
+
+.dot {
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  border: 7px solid #F34106;
+  display: inline-block;
+  overflow: hidden;
+  height: 110px;
+  width: 110px;
+  position: absolute;
+  top: 420px;
+  right: 554px;
+  margin: 0 auto;
+}
+
+img {
+  width: 110px;
+  height: 120px;
+}
+
+footer {
+  position: absolute;
+  height: 100px;
+}
